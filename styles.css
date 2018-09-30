@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+}
+
+.topWrapper {
+    height: 85vh;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.center { 
+    position: relative;
+    
+}
+
+#intro{
+    padding-top: 75px;
+
+}
+
+.center p{
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+p{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 2em;
+    border-bottom: 5px solid #1c88c8;
+    padding: 15px 0px 10px;
+}
+
+#Salutation{
+    font-size: 1.75em;
+    text-align: center;
+    padding: 0px 30px 20px;    
+}
+
+#downPrompt, #techBorder {
+    height: 20px;
+    background-image: linear-gradient(white, paleturquoise);
+}
+
+#Contact {
+    background-color: paleturquoise;
+    font-size: 1.25em;
+    padding: 20px 50px 10px;
+}
+
+#Bio{
+    background-color: paleturquoise;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+#bioBorder{
+    height: 20px;
+    background-image: linear-gradient(paleturquoise, navy);
+}
+
+#Projects{
+    color: white;
+    background-color: navy;
+    font-size: 1.25em;
+    padding: 20px 50px 10px; 
+}
+
+.project{
+    text-align: center;
+}
+
+h2{
+    display: inline-block;
+}
+
+.thumbnail {
+    width: 330px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.myPic {
+    width: 150px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px 0px 15px;
+}
+
+.desc, .text {
+    width: 500px;
+    display: inline-block;
+    font-size: .75em;
+    text-align: left;
+    padding: 15px 25px 15px;
+}
+
+.textBlock{
+    width: 330px;
+}
+
+#projBorder{
+    height: 20px;
+    background-image: linear-gradient(navy, white);
+}
+
+#Technologies{
+    text-align: center;
+    padding: 20px 0px 20px;
+    min-height: 600px;
+}
+
+.techList{
+    display: inline-block;
+    vertical-align: text-top;
+    width: 250px;
+    margin: 10px;
+    -webkit-padding-start: 0px;
+}
+
+.listItem {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+li {
+    list-style: none;
+}
+
+.tech, .contactPoint {
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.contactPoint{
+    margin-left: 20px;
+}
+
+.tech > a, .contactPoint > a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.htmlDiv {
+    background-image: url(./img/html5.png);
+}
+
+.cssDiv {
+    background-image: url(./img/css3.png);
+}
+
+.javascriptDiv {
+    background-image: url(./img/JS.png);
+}
+
+.jqueryDiv {
+    background-image: url(./img/jquery.png);
+}
+
+.angularDiv {
+    background-image: url(./img/AngularJS.svg);
+}
+
+.nodejsDiv {
+    background-image: url(./img/node.png);
+}
+
+.npmDiv {
+    background-image: url(./img/npm.png);
+}
+
+.mongodbDiv {
+    background-image: url(./img/mongodb.jpg);
+}
+
+.mochaDiv {
+    background-image: url(./img/mocha.png);
+}
+
+.chaiDiv {
+    background-image: url(./img/chai.png);
+}
+
+.githubDiv {
+    background-image: url(./img/GitHub.png);
+}
+
+.herokuDiv {
+    background-image: url(./img/heroku.png);
+}
+
+.travisDiv {
+    background-image: url(./img/travis.png);
+}
+
+#contactList{
+    text-align: center;
+}
+
+.email {
+    background-image: url(./img/envelope.png)
+}
+
+.gitHub {
+    background-image: url(./img/GitHub.png)
+}
+
+.linkedIn{
+    background-image: url(./img/linkedin.png)
+}
