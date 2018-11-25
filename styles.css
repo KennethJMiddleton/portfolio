@@ -23,7 +23,7 @@
     margin-top: 75px;
     padding: 15px;
     font-weight: bolder;
-    background-color: rgba(255,255,255, .5);
+    background-color: rgba(255,255,255, .7);
 }
 
 .center p{
@@ -49,13 +49,14 @@ h1{
 #Salutation{
     font-size: 1.75em;
     text-align: center;
-    padding: 0px 30px 20px;  
+    padding: 0px 0px 20px;  
     background-image: url("/img/Blue\ Scape.jpg");
+    background-color: rgba(255,255,255, .2);
     margin-top: 40px;   
 }
 
 #parchment{
-    background-color: rgba(255,255,255, .5);
+    background-color: rgba(255,255,255, .7);
 }
 
 #downPrompt{
@@ -64,17 +65,16 @@ h1{
 }
 
 #Contact {
-    background-color: paleturquoise;
     font-size: 1.25em;
     text-align: center;
-    padding: 20px 50px 10px;
+    padding: 20px 0px 10px;
 }
 
 #Bio{
-    background-color: paleturquoise;
     font-size: 1.25em;
     text-align: center;
     margin-top: 40px;
+    padding: 0px 0px 20px;
 }
 
 #bioBorder{
@@ -82,16 +82,15 @@ h1{
 }
 
 #Projects{
-    color: white;
-    background-color: navy;
     font-size: 1.25em;
     text-align: center;
-    padding: 20px 50px 10px;
+    padding: 20px 0px 10px;
     margin-top: 40px; 
 }
 
 .project{
     text-align: center;
+    padding: 0px 0px 20px; 
 }
 
 h2{
@@ -132,10 +131,8 @@ h2{
 }
 
 #Projects{
-    color: white;
-    background-color: navy;
     font-size: 1.25em;
-    padding: 20px 0px 10px; 
+    padding: 0px 0px 10px; 
 }
 }
 
