@@ -46,6 +46,10 @@ h1{
     padding: 15px 0px 10px;
 }
 
+a{
+    color: #1c88c8;
+}
+
 #Salutation{
     font-size: 1.75em;
     text-align: center;
@@ -138,6 +142,7 @@ h2{
 
 .git{
     display: inline;
+    font-weight: bold;
 }
 
 .textBlock{
